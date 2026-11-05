@@ -1,6 +1,6 @@
 # Hi, I'm Md. Jahidul Islam Rihan
 
-**QA Automation Engineer** for web apps and APIs: Playwright (TypeScript), API testing with Postman/Newman and OpenAPI, k6 performance testing, and manual QA with clear defect reports. I build test suites that find real bugs, explain them clearly, and keep checking on every code change.
+**QA Automation Engineer** for web apps and APIs: UI automation in Playwright, Cypress or Selenium (Python), API testing with Postman/Newman and OpenAPI, k6 performance testing, SQL data checks, and manual QA with clear defect reports. I build test suites that find real bugs, explain them clearly, and keep checking on every code change.
 
 ## Problems I solve
 
@@ -27,6 +27,8 @@
 
 Each project is its own repository, with CI, documentation and (where it makes one) a live report you can open. The [hub page](https://jahidulislamrihan26.github.io/sqa-portfolio/) links them all.
 
+[![The portfolio hub page: every project with its live report](https://raw.githubusercontent.com/jahidulislamrihan26/sqa-portfolio/main/docs/images/hub-page.png)](https://jahidulislamrihan26.github.io/sqa-portfolio/)
+
 | Project | Result |
 |---|---|
 | [**playwright-ui-automation-pom**](https://github.com/jahidulislamrihan26/playwright-ui-automation-pom) ([live report](https://jahidulislamrihan26.github.io/playwright-ui-automation-pom/)) | 115 tests on Chromium, Firefox, WebKit and a phone profile, 94% of the manual test cases automated and traced, all 20 known site defects captured as expected-failure tests, 0 flaky in 345 runs |
@@ -47,7 +49,7 @@ Open to freelance QA projects. Every package below has a fixed scope, so you kno
 
 | Starter package | What you receive |
 |---|---|
-| **Smoke-test suite for your web app** | Playwright tests for your most important user journeys (login, search, checkout or similar), running in your CI on every change, with a short report |
+| **Smoke-test suite for your web app** | Playwright (or Cypress, or Selenium with Python) tests for your most important user journeys (login, search, checkout or similar), running in your CI on every change, with a short report |
 | **API test suite** | Postman/Newman tests for your endpoints: status codes, response structure, authentication, error cases, and a written list of every defect found |
 | **Quality review** | I test your app for a few days and send a clear report: bugs with steps and evidence, risks ranked by impact, and what to automate first |
 | **Load test** | k6 scripts and a plain-language answer to "how many users can it take, and what breaks first?" |
