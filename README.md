@@ -17,7 +17,7 @@
 
 | Service | What you get | Tools |
 |---|---|---|
-| **UI test automation** | A maintainable, cross-browser framework that runs in CI, in Playwright (Page Object Model) or Cypress | Playwright, Cypress, TypeScript, JavaScript, GitHub Actions |
+| **UI test automation** | A maintainable, cross-browser framework that runs in CI, in Playwright (Page Object Model), Cypress or Selenium with Python | Playwright, Cypress, Selenium, Python, pytest, TypeScript, GitHub Actions |
 | **Database and data checks** | SQL tests that prove orders, totals and records are stored correctly and nothing is lost or duplicated | SQL, SQLite, Node.js |
 | **API testing** | Contract, authentication, negative and security tests with readable reports | Postman, Newman, OpenAPI, JSON Schema |
 | **Performance testing** | Load, stress, spike and soak tests that answer "how much traffic can it take?" | k6 |
@@ -33,12 +33,13 @@ Each project is its own repository, with CI, documentation and (where it makes o
 | [**api-testing-newman-openapi**](https://github.com/jahidulislamrihan26/api-testing-newman-openapi) ([live reports](https://jahidulislamrihan26.github.io/api-testing-newman-openapi/)) | 74 requests, 186 assertions, built on an OpenAPI spec with a coverage report, 13 API defects found, secrets redacted from reports, and mutation-tested: all 20 deliberately injected faults were caught |
 | [**k6-performance-testing**](https://github.com/jahidulislamrihan26/k6-performance-testing) ([live report](https://jahidulislamrihan26.github.io/k6-performance-testing/)) | k6 tests on a real Node.js and SQLite shop: 5,110 shopper journeys 100% correct, capacity range measured (at least 900 requests per second), CPU bottleneck proven with telemetry, recovery verified. 20 SQL checks on its database found that orders never reduce stock |
 | [**cypress-e2e-saucedemo**](https://github.com/jahidulislamrihan26/cypress-e2e-saucedemo) | 29 Cypress end-to-end tests (login, cart, checkout, access control) with cached sessions and known defects kept visible, passing in CI |
+| [**selenium-pytest-saucedemo**](https://github.com/jahidulislamrihan26/selenium-pytest-saucedemo) | 29 Selenium 4 tests in Python and pytest (Page Object Model, explicit waits, parametrized tests, screenshots on failure), passing in CI |
 | [**manual-testing-saucedemo**](https://github.com/jahidulislamrihan26/manual-testing-saucedemo) | 87 test cases, 20 defects with evidence (including a login bypass, a cart keyboard users cannot open, and checkout integrity flaws), risk-based strategy and summary report |
 | [**qa-templates**](https://github.com/jahidulislamrihan26/qa-templates) | Ready-to-use test plan, test case, bug report and summary templates, plus accessibility, API, security and performance checklists |
 
 ## Tools
 
-Playwright · Cypress · TypeScript · JavaScript · SQL · Postman · Newman · OpenAPI · k6 · GitHub Actions · Node.js · axe-core · JSON Schema
+Playwright · Cypress · Selenium · Python · pytest · TypeScript · JavaScript · SQL · Postman · Newman · OpenAPI · k6 · GitHub Actions · Node.js · axe-core · JSON Schema
 
 ## Work with me
 
