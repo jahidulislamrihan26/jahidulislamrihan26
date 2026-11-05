@@ -20,9 +20,9 @@ Everything is in one public repository, with CI and live reports you can open:
 | Project | Result |
 |---|---|
 | UI automation | 69 tests on Chromium, Firefox and WebKit, 12 known site bugs captured as expected-failure tests |
-| API testing | 49 requests, 133 assertions, 9 API defects found, secrets redacted from reports |
+| API testing | 74 requests, 186 assertions, built on an OpenAPI spec with a coverage report, 13 API defects found, secrets redacted from reports |
 | Performance | Capacity of about 500 requests per second found, breaking point and recovery measured |
-| Manual testing | 64 test cases, 12 defects with screenshots, risk-based strategy and summary report |
+| Manual testing | 85 test cases, 19 defects with screenshots (including a login bypass and checkout integrity flaws), risk-based strategy and summary report |
 
 ## Tools
 
