@@ -1,4 +1,4 @@
-# Hi, I'm Md. Jahidul Islam Rihan
+﻿# Hi, I'm Md. Jahidul Islam Rihan
 
 **QA Automation Engineer.** I build test suites that find real bugs, explain them clearly, and keep checking on every code change.
 
@@ -25,8 +25,24 @@ Each project is its own repository, with CI, documentation and (where it makes o
 
 ## Tools
 
-Playwright · TypeScript · Postman · Newman · OpenAPI · k6 · GitHub Actions · Node.js · axe-core · JSON Schema
+Playwright Â· TypeScript Â· Postman Â· Newman Â· OpenAPI Â· k6 Â· GitHub Actions Â· Node.js Â· axe-core Â· JSON Schema
 
 ## Work with me
 
-Open to freelance QA work. A small, clearly scoped project (for example an API test suite for a set of endpoints, or a smoke-test suite for a web app) is a good way to start.
+Open to freelance QA projects. Every package below has a fixed scope, so you know what you get before we start.
+
+| Starter package | What you receive |
+|---|---|
+| **Smoke-test suite for your web app** | Playwright tests for your most important user journeys (login, search, checkout or similar), running in your CI on every change, with a short report |
+| **API test suite** | Postman/Newman tests for your endpoints: status codes, response structure, authentication, error cases, and a written list of every defect found |
+| **Quality review** | I test your app for a few days and send a clear report: bugs with steps and evidence, risks ranked by impact, and what to automate first |
+| **Load test** | k6 scripts and a plain-language answer to "how many users can it take, and what breaks first?" |
+
+**How it works**
+1. You tell me what the app does and what worries you most.
+2. I reply with a clear scope and a delivery date, so you know what you get and when.
+3. You get regular updates, every defect with evidence, and everything in a repository you own.
+
+**What I will not do:** claim a bug I cannot reproduce, or hide a problem to make a report look better.
+
+**Start here:** email me a few lines about your project: [jahidulislamrihan26@gmail.com](mailto:jahidulislamrihan26@gmail.com)
