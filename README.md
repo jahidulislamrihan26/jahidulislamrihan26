@@ -1,6 +1,17 @@
 # Hi, I'm Md. Jahidul Islam Rihan
 
-**QA Automation Engineer.** I build test suites that find real bugs, explain them clearly, and keep checking on every code change.
+**QA Automation Engineer** for web apps and APIs: Playwright (TypeScript), API testing with Postman/Newman and OpenAPI, k6 performance testing, and manual QA with clear defect reports. I build test suites that find real bugs, explain them clearly, and keep checking on every code change.
+
+## Problems I solve
+
+| You are saying... | What I do |
+|---|---|
+| "We find bugs after release" | Risk-based test plan, regression suite that runs on every change, defect reports with steps and evidence |
+| "Manual regression takes too long" | Automate the repeatable checks in Playwright, across Chromium, Firefox, WebKit and a phone profile |
+| "We do not trust our API" | Contract tests from your OpenAPI spec, auth, validation and error cases, checked so a broken API makes the suite fail |
+| "Will it survive launch day?" | k6 load, stress and spike tests with server telemetry, and a plain answer on capacity and the first bottleneck |
+| "Our tests are flaky" | Stable waits, isolated test data, repeat runs to prove it: my UI suite had 0 flaky tests in 345 runs |
+| "I need a second pair of eyes before release" | A few days of exploratory testing, then a ranked report of bugs and risks |
 
 ## What I can do for you
 
@@ -18,7 +29,7 @@ Each project is its own repository, with CI, documentation and (where it makes o
 | Project | Result |
 |---|---|
 | [**playwright-ui-automation-pom**](https://github.com/jahidulislamrihan26/playwright-ui-automation-pom) ([live report](https://jahidulislamrihan26.github.io/playwright-ui-automation-pom/)) | 115 tests on Chromium, Firefox, WebKit and a phone profile, 94% of the manual test cases automated and traced, all 20 known site defects captured as expected-failure tests, 0 flaky in 345 runs |
-| [**api-testing-newman-openapi**](https://github.com/jahidulislamrihan26/api-testing-newman-openapi) ([live reports](https://jahidulislamrihan26.github.io/api-testing-newman-openapi/)) | 74 requests, 186 assertions, built on an OpenAPI spec with a coverage report, 13 API defects found, secrets redacted from reports |
+| [**api-testing-newman-openapi**](https://github.com/jahidulislamrihan26/api-testing-newman-openapi) ([live reports](https://jahidulislamrihan26.github.io/api-testing-newman-openapi/)) | 74 requests, 186 assertions, built on an OpenAPI spec with a coverage report, 13 API defects found, secrets redacted from reports, and mutation-tested: all 20 deliberately injected faults were caught |
 | [**k6-performance-testing**](https://github.com/jahidulislamrihan26/k6-performance-testing) ([live report](https://jahidulislamrihan26.github.io/k6-performance-testing/)) | k6 tests on a real Node.js and SQLite shop: 5,110 shopper journeys 100% correct, capacity range measured (at least 900 requests per second), CPU bottleneck proven with telemetry, recovery verified |
 | [**manual-testing-saucedemo**](https://github.com/jahidulislamrihan26/manual-testing-saucedemo) | 87 test cases, 20 defects with evidence (including a login bypass, a cart keyboard users cannot open, and checkout integrity flaws), risk-based strategy and summary report |
 | [**qa-templates**](https://github.com/jahidulislamrihan26/qa-templates) | Ready-to-use test plan, test case, bug report and summary templates, plus accessibility, API, security and performance checklists |
