@@ -19,10 +19,10 @@ Everything is in one public repository, with CI and live reports you can open:
 
 | Project | Result |
 |---|---|
-| UI automation | 69 tests on Chromium, Firefox and WebKit, 12 known site bugs captured as expected-failure tests |
+| UI automation | 115 tests on Chromium, Firefox, WebKit and a phone profile, 94% of the manual test cases automated and traced, all 20 known site defects captured as expected-failure tests, 0 flaky in 339 runs |
 | API testing | 74 requests, 186 assertions, built on an OpenAPI spec with a coverage report, 13 API defects found, secrets redacted from reports |
 | Performance | k6 tests on a real Node.js and SQLite shop: 5,110 shopper journeys 100% correct, capacity range measured (at least 900 requests per second), CPU bottleneck proven with telemetry, recovery verified |
-| Manual testing | 85 test cases, 19 defects with screenshots (including a login bypass and checkout integrity flaws), risk-based strategy and summary report |
+| Manual testing | 87 test cases, 20 defects with evidence (including a login bypass, a cart keyboard users cannot open, and checkout integrity flaws), risk-based strategy and summary report |
 
 ## Tools
 
