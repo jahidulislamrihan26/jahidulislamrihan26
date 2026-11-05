@@ -21,7 +21,7 @@ Everything is in one public repository, with CI and live reports you can open:
 |---|---|
 | UI automation | 69 tests on Chromium, Firefox and WebKit, 12 known site bugs captured as expected-failure tests |
 | API testing | 74 requests, 186 assertions, built on an OpenAPI spec with a coverage report, 13 API defects found, secrets redacted from reports |
-| Performance | Capacity of about 500 requests per second found, breaking point and recovery measured |
+| Performance | k6 tests on a real Node.js and SQLite shop: 5,110 shopper journeys 100% correct, capacity range measured (at least 900 requests per second), CPU bottleneck proven with telemetry, recovery verified |
 | Manual testing | 85 test cases, 19 defects with screenshots (including a login bypass and checkout integrity flaws), risk-based strategy and summary report |
 
 ## Tools
