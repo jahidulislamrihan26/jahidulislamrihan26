@@ -1,4 +1,4 @@
-﻿# Hi, I'm Md. Jahidul Islam Rihan
+# Hi, I'm Md. Jahidul Islam Rihan
 
 **QA Automation Engineer.** I build test suites that find real bugs, explain them clearly, and keep checking on every code change.
 
@@ -25,7 +25,7 @@ Each project is its own repository, with CI, documentation and (where it makes o
 
 ## Tools
 
-Playwright Â· TypeScript Â· Postman Â· Newman Â· OpenAPI Â· k6 Â· GitHub Actions Â· Node.js Â· axe-core Â· JSON Schema
+Playwright · TypeScript · Postman · Newman · OpenAPI · k6 · GitHub Actions · Node.js · axe-core · JSON Schema
 
 ## Work with me
 
