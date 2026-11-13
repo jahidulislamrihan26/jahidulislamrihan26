@@ -1,6 +1,6 @@
 # Hi, I'm Md. Jahidul Islam Rihan
 
-**QA Automation Engineer** for web apps and APIs: UI automation in Playwright, Cypress or Selenium (Python), API testing with Postman/Newman and OpenAPI, k6 performance testing, SQL data checks, and manual QA with clear defect reports. I build test suites that find real bugs, explain them clearly, and keep checking on every code change.
+**QA Automation Engineer** for web, mobile and APIs: UI automation in Playwright, Cypress or Selenium (Python), mobile tests in Maestro, API testing for REST and GraphQL with Postman/Newman and TypeScript, k6 performance testing, SQL data checks, and manual QA with clear defect reports. I build test suites that find real bugs, explain them clearly, and keep checking on every code change.
 
 ## Problems I solve
 
@@ -18,8 +18,9 @@
 | Service | What you get | Tools |
 |---|---|---|
 | **UI test automation** | A maintainable, cross-browser framework that runs in CI, in Playwright (Page Object Model), Cypress or Selenium with Python | Playwright, Cypress, Selenium, Python, pytest, TypeScript, GitHub Actions |
+| **Mobile app testing** | End-to-end tests for an Android or iOS app in Maestro, run on emulators in CI, with a measured flakiness rate | Maestro, Android emulator, GitHub Actions |
 | **Database and data checks** | SQL tests that prove orders, totals and records are stored correctly and nothing is lost or duplicated | SQL, SQLite, Node.js |
-| **API testing** | Contract, authentication, negative and security tests with readable reports | Postman, Newman, OpenAPI, JSON Schema |
+| **API testing** | Contract, authentication, negative and security tests with readable reports, for REST and GraphQL, including webhooks and database checks | Postman, Newman, OpenAPI, GraphQL, TypeScript, PostgreSQL, Redis |
 | **Performance testing** | Load, stress, spike and soak tests that answer "how much traffic can it take?" | k6 |
 | **Manual QA** | Test strategy, test cases, traceability and defect reports with evidence | Excel, Markdown |
 
@@ -36,12 +37,14 @@ Each project is its own repository, with CI, documentation and (where it makes o
 | [**k6-performance-testing**](https://github.com/jahidulislamrihan26/k6-performance-testing) ([live report](https://jahidulislamrihan26.github.io/k6-performance-testing/)) | k6 tests on a real Node.js and SQLite shop: 5,110 shopper journeys 100% correct, capacity range measured (at least 900 requests per second), CPU bottleneck proven with telemetry, recovery verified. 20 SQL checks on its database found that orders never reduce stock |
 | [**cypress-e2e-saucedemo**](https://github.com/jahidulislamrihan26/cypress-e2e-saucedemo) ([live report](https://jahidulislamrihan26.github.io/cypress-e2e-saucedemo/)) | 94 Cypress tests passing in CI: 74 of 87 manual cases automated and traced, 18 of 20 known site defects captured, accessibility scan, 5 screen sizes, cached sessions |
 | [**selenium-pytest-saucedemo**](https://github.com/jahidulislamrihan26/selenium-pytest-saucedemo) ([live reports](https://jahidulislamrihan26.github.io/selenium-pytest-saucedemo/)) | 104 Selenium 4 tests in Python and pytest on Chrome and Firefox: 80 of 87 manual cases automated and traced, all 20 known site defects captured, real keyboard tests, accessibility scan |
+| [**graphql-order-api-testing**](https://github.com/jahidulislamrihan26/graphql-order-api-testing) | 124 API tests for a GraphQL order backend on real PostgreSQL and Redis: signed webhooks (replay, duplicates, out-of-order), concurrency, cancellations and returns. Mutation-tested: 20 of 20 injected faults caught. Load-tested to about 2,000 requests per second with SQL integrity checks afterwards |
+| [**mobile-e2e-maestro**](https://github.com/jahidulislamrihan26/mobile-e2e-maestro) | 10 Maestro flows on an Android emulator in CI, including a full purchase; smoke flows repeated 10 times with 40 of 40 passing; a deliberately wrong flow that must fail. Android only so far |
 | [**manual-testing-saucedemo**](https://github.com/jahidulislamrihan26/manual-testing-saucedemo) | 87 test cases, 20 defects with evidence (including a login bypass, a cart keyboard users cannot open, and checkout integrity flaws), risk-based strategy and summary report |
 | [**qa-templates**](https://github.com/jahidulislamrihan26/qa-templates) | Ready-to-use test plan, test case, bug report and summary templates, plus accessibility, API, security and performance checklists |
 
 ## Tools
 
-Playwright · Cypress · Selenium · Python · pytest · TypeScript · JavaScript · SQL · Postman · Newman · OpenAPI · k6 · GitHub Actions · Node.js · axe-core · JSON Schema
+Playwright · Cypress · Selenium · Maestro · Python · pytest · TypeScript · JavaScript · SQL · PostgreSQL · Redis · GraphQL · Postman · Newman · OpenAPI · k6 · GitHub Actions · Node.js · axe-core · JSON Schema
 
 ## Work with me
 
