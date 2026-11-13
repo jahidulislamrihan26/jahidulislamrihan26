@@ -18,7 +18,7 @@
 | Service | What you get | Tools |
 |---|---|---|
 | **UI test automation** | A maintainable, cross-browser framework that runs in CI, in Playwright (Page Object Model), Cypress or Selenium with Python | Playwright, Cypress, Selenium, Python, pytest, TypeScript, GitHub Actions |
-| **Mobile app testing** | End-to-end tests for an Android or iOS app in Maestro, run on emulators in CI, with a measured flakiness rate | Maestro, Android emulator, GitHub Actions |
+| **Mobile app testing** | Manual testing of an Android app with test cases and defect reports, plus automated end-to-end tests in Appium or Maestro on emulators in CI | Appium, Maestro, Python, Android emulator, GitHub Actions |
 | **Database and data checks** | SQL tests that prove orders, totals and records are stored correctly and nothing is lost or duplicated | SQL, SQLite, Node.js |
 | **API testing** | Contract, authentication, negative and security tests with readable reports, for REST and GraphQL, including webhooks and database checks | Postman, Newman, OpenAPI, GraphQL, TypeScript, PostgreSQL, Redis |
 | **Performance testing** | Load, stress, spike and soak tests that answer "how much traffic can it take?" | k6 |
@@ -39,12 +39,14 @@ Each project is its own repository, with CI, documentation and (where it makes o
 | [**selenium-pytest-saucedemo**](https://github.com/jahidulislamrihan26/selenium-pytest-saucedemo) ([live reports](https://jahidulislamrihan26.github.io/selenium-pytest-saucedemo/)) | 104 Selenium 4 tests in Python and pytest on Chrome and Firefox: 80 of 87 manual cases automated and traced, all 20 known site defects captured, real keyboard tests, accessibility scan |
 | [**graphql-order-api-testing**](https://github.com/jahidulislamrihan26/graphql-order-api-testing) | 124 API tests for a GraphQL order backend on real PostgreSQL and Redis: signed webhooks (replay, duplicates, out-of-order), concurrency, cancellations and returns. Mutation-tested: 20 of 20 injected faults caught. Load-tested to about 2,000 requests per second with SQL integrity checks afterwards |
 | [**mobile-e2e-maestro**](https://github.com/jahidulislamrihan26/mobile-e2e-maestro) | 10 Maestro flows on an Android emulator in CI, including a full purchase; smoke flows repeated 10 times with 40 of 40 passing; a deliberately wrong flow that must fail. Android only so far |
+| [**mobile-app-manual-testing**](https://github.com/jahidulislamrihan26/mobile-app-manual-testing) | Manual test package for an Android shopping app: 38 test cases with results, exploratory sessions, 8 defects with screenshots and a video (including a Critical one in checkout), QA summary report, Jira import file. Android emulator only |
+| [**appium-android-pytest**](https://github.com/jahidulislamrihan26/appium-android-pytest) | 14 Appium tests in Python and pytest with Page Objects and explicit waits, passing on an Android emulator in CI |
 | [**manual-testing-saucedemo**](https://github.com/jahidulislamrihan26/manual-testing-saucedemo) | 87 test cases, 20 defects with evidence (including a login bypass, a cart keyboard users cannot open, and checkout integrity flaws), risk-based strategy and summary report |
 | [**qa-templates**](https://github.com/jahidulislamrihan26/qa-templates) | Ready-to-use test plan, test case, bug report and summary templates, plus accessibility, API, security and performance checklists |
 
 ## Tools
 
-Playwright · Cypress · Selenium · Maestro · Python · pytest · TypeScript · JavaScript · SQL · PostgreSQL · Redis · GraphQL · Postman · Newman · OpenAPI · k6 · GitHub Actions · Node.js · axe-core · JSON Schema
+Playwright · Cypress · Selenium · Appium · Maestro · Python · pytest · TypeScript · JavaScript · SQL · PostgreSQL · Redis · GraphQL · Postman · Newman · OpenAPI · k6 · GitHub Actions · Node.js · axe-core · JSON Schema
 
 ## Work with me
 
